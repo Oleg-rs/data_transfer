@@ -84,7 +84,8 @@ def chek(arg):
     if int(a[3]) != 0:
         return False
     else:
-        stroka = f"\rспортсмен, нагрудный номер {a[0]} прошёл отсечку {a[1]} в {a[2]}"
+        mini = a[2]
+        stroka = f"\rспортсмен, нагрудный номер {a[0]} прошёл отсечку {a[1]} в {mini[:-2]}"
         return stroka
 
 
